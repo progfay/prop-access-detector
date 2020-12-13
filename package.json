@@ -1,0 +1,40 @@
+{
+  "name": "cdp-template",
+  "version": "1.0.0",
+  "description": "Template Repository with Chrome DevTools Protocol",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "lint": "eslint -c ./.eslintrc.js src",
+    "format": "prettier --write ./src && eslint --fix -c ./.eslintrc.js ./src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/progfay/cdp-template.git"
+  },
+  "keywords": [
+    "cdp"
+  ],
+  "author": "progfay",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/progfay/cdp-template/issues"
+  },
+  "homepage": "https://github.com/progfay/cdp-template#readme",
+  "devDependencies": {
+    "eslint": "7.14.0",
+    "eslint-config-prettier": "6.15.0",
+    "eslint-config-prettier-standard": "3.0.1",
+    "eslint-config-standard": "16.0.2",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-standard": "4.1.0",
+    "prettier": "2.2.1",
+    "prettier-config-standard": "1.0.1"
+  },
+  "dependencies": {
+    "chrome-remote-interface": "^0.28.2"
+  }
+}

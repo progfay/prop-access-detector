@@ -1,0 +1,14 @@
+version: "3"
+services:
+  chrome:
+    image: chromedp/headless-shell:latest
+    ports:
+      - "9222:9222"
+
+  node:
+    build: ./
+    environment:
+      CHROME_HOST: "chrome"
+    depends_on:
+      - chrome
+    command: npm start
