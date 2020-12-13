@@ -35,6 +35,7 @@
     "prettier-config-standard": "1.0.1"
   },
   "dependencies": {
-    "chrome-remote-interface": "^0.28.2"
+    "chrome-remote-interface": "^0.28.2",
+    "uuid": "^8.3.2"
   }
 }
