@@ -1,6 +1,6 @@
-# cdp-template
+# prop-access-detector
 
-Template Repository with Chrome DevTools Protocol
+Detect accessing specific property on specific website
 
 ## Usage
 
